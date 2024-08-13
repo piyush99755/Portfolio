@@ -169,3 +169,30 @@ img#profile-pic{
 #education article p{
     margin:0;
 }
+
+#contact{
+    background-color: var(--light-grey);
+}
+
+#contact a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+}
+
+#contact a img{
+    vertical-align:middle;
+    margin-right:12px;
+}
+
+footer{
+    background-color: var(--light-grey);
+    
+    font-size:16px;
+}
+
+footer .container{
+    border-top:1px solid black;
+    padding:24px 0;
+}
