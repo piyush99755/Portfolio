@@ -34,7 +34,7 @@ section .section-title{
 }
 
 section p{
-    font-size:20px;
+    font-size:24px;
     line-height:32px;
     color:var(--grey);
 }
@@ -68,8 +68,6 @@ header a{
 .container{
     width:940px;
     margin:auto;
-    /* border:yellow solid 1px; */
-
 }
 
 section.blue-bg{
@@ -80,7 +78,6 @@ section.blue-bg{
 
 img#profile-pic{
     width:263px;
-   
     border-radius:270px;
 }
 #hero{
@@ -140,7 +137,8 @@ img#profile-pic{
   margin:8px;
   background-color:var(--light-grey);
   font-size:16px;
-  letter-spacing:-1px;
+  letter-spacing:0px;
+  font-weight:bold;
 
 }
 
@@ -159,7 +157,7 @@ img#profile-pic{
 }
 
 #education article h3{
-    font-size:20px;
+    font-size:24px;
     font-weight:bold;
     color:var(--grey);
     margin-top:0;
@@ -196,3 +194,323 @@ footer .container{
     border-top:1px solid black;
     padding:24px 0;
 }
+
+
+/** media query for tablets.. **/
+@media screen and (max-width: 940px) {
+
+    body{
+        padding:0;
+        margin:0;
+    }
+
+    .container{
+        max-width:100%;
+    }
+
+    section{
+        padding:30px 0;
+    }
+    
+    hr{
+        width:60px;
+        height:6px;
+    }
+    
+    section .section-title{
+        font-size:34px;
+        margin-bottom:10px;
+    }
+    
+    header{
+       padding:10px 0;
+    }
+    header a{
+         margin:0px 16px;
+    }
+    
+    .button{
+        padding:8px 2px;
+        border-radius:4px;
+    }
+    
+    section.blue-bg{
+        padding-top:56px;
+        
+    }
+    
+    img#profile-pic{
+        width:240px;
+        border-radius:270px;
+    }
+
+    #hero
+    {
+        padding-top:56px;
+        padding-bottom:10px;
+    }
+
+    #hero h1{
+        font-size:60px;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+
+    #hero h2{
+        font-size:20px;
+        margin-bottom:20px;
+    }
+
+    #hero p{
+        max-width:460px;
+    }
+
+    #hero ul{
+        padding:0;
+        margin-bottom:10px;
+        
+    }
+    
+    #hero li{
+        display:inline;
+        margin:0 6px;
+    }
+    
+    #hero li img{
+        width:37px;
+        
+    }
+
+    #skillset .skills{
+        width:500px;
+        margin:auto;
+    }
+
+    #skillset p{
+        width:85%;
+        text-align:center;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    
+    #skillset span{
+      display:inline-block;
+      width:130px;
+      height:36px;
+      line-height:32px;
+      border-radius:73px;
+      margin:8px;
+      font-size:14px;
+      letter-spacing:1px;
+      font-weight:bold;
+    
+    }
+    
+    #education article{
+        border-bottom:1px solid #D9D9D9;
+        padding:30px 0;
+        width:85%;
+        margin:auto;
+        
+    }
+    
+    #education article:last-of-type{
+        border-bottom:none;
+    }
+    
+    #education article:first-of-type{
+        padding-top:0;
+    }
+    
+    #education article h3{
+        font-size:24px;
+        font-weight:bold;
+        color:var(--grey);
+        margin-top:0;
+        margin-bottom:10px;
+    }
+    
+    #education article p{
+        font-size:22px;
+    }
+    
+    #contact{
+        background-color: var(--light-grey);
+    }
+    
+    #contact a{
+        display:block;
+        text-decoration: none;
+        color:black;
+        font-size:18px;
+    }
+    
+    #contact a img{
+        vertical-align:middle;
+        margin-right:12px;
+    }
+    
+    footer{
+        background-color: var(--light-grey);
+        
+        font-size:16px;
+    }
+    
+    footer .container{
+        border-top:1px solid black;
+        padding:24px 0;
+    }
+
+}
+
+
+/** media query for mobiles.. **/
+@media screen and (max-width: 500px) {
+    body{
+        width:500px;
+    }
+
+    section{
+        padding:20px 0;
+    }
+    
+    hr{
+        width:40px;
+        height:4px;
+    }
+    
+    section .section-title{
+        font-size:30px;
+        margin-bottom:8px;
+    }
+    
+    header{
+       padding:6px 0;
+    }
+    header a{
+         margin:0px 12px;
+    }
+    
+    .button{
+        padding:4px 2px;
+        border-radius:2px;
+    }
+    section.blue-bg{
+        padding-top:30px;
+    }
+    
+    img#profile-pic{
+        width:200px;
+        border-radius:240px;
+    }
+    #hero{
+        padding-top:28px;
+        padding-bottom:10px;
+    
+    }
+    #hero h1{
+        font-size:44px;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+    #hero h2{
+        font-size:18px;
+        margin-bottom:20px;
+    }
+
+    #hero p{
+        max-width:380px;
+    }
+    
+    #hero li{
+        display:inline;
+        margin:0 6px;
+        margin-bottom:2px;
+    }
+    
+    #hero li img{
+        width:37px;
+        
+    }
+    
+    #skillset .skills{
+        width:500px;
+        margin:auto;
+    }
+
+    #skillset p{
+        max-width:800px;
+        text-align:center;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    
+    #skillset span{
+      display:inline-block;
+      width:130px;
+      height:36px;
+      line-height:40px;
+      border-radius:73px;
+      margin:8px;
+      font-size:14px;
+      letter-spacing:1px;
+    
+    }
+
+    #education article{
+        border-bottom:1px solid #D9D9D9;
+        padding:30px 0;
+        width:85%;
+        margin:auto;
+        
+    }
+    
+    #education article:last-of-type{
+        border-bottom:none;
+    }
+    
+    #education article:first-of-type{
+        padding-top:0;
+    }
+    
+    #education article h3{
+        font-size:20px;
+        font-weight:bold;
+        color:var(--grey);
+        margin-top:0;
+        margin-bottom:10px;
+    }
+    
+    #education article p{
+        margin:0;
+    }
+    
+    #contact{
+        background-color: var(--light-grey);
+    }
+    
+    #contact a{
+        display:block;
+        text-decoration: none;
+        color:black;
+        font-size:18px;
+    }
+    
+    #contact a img{
+        vertical-align:middle;
+        margin-right:12px;
+    }
+    
+    footer{
+        background-color: var(--light-grey);
+        
+        font-size:16px;
+    }
+    
+    footer .container{
+        border-top:1px solid black;
+        padding:24px 0;
+    }
+    
+}   
+
