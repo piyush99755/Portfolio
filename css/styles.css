@@ -163,6 +163,7 @@ img#profile-pic{
    justify-content: center;
    align-items:center;
    flex-wrap:wrap;
+   
      
 }
 
@@ -174,6 +175,7 @@ img#profile-pic{
     width:50%;
     margin-bottom:80px;
     box-sizing: border-box;
+    background-color:#28293E;
    
     
     
@@ -201,12 +203,14 @@ img#profile-pic{
 .project-container span{
     text-align:center;
     
-    cursor:pointer;
+    
     
 }
 .project-container .project-name{
     font-size:20px;
     font-family:bold;
+    color:white;
+    cursor:pointer;
 }
 
 
@@ -543,6 +547,7 @@ footer .container{
         display:flex;
         align-items:center;
         justify-content: center;
+        
     }
 
     .project-container{
@@ -550,6 +555,7 @@ footer .container{
         height:auto;
         border:1px solid black;
         border-radius:30px;
+        
        
     }
     
