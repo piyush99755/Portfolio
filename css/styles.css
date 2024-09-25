@@ -49,6 +49,11 @@ ul{
     list-style-type:none;
 }
 
+.nav-item .button {
+    font-size: 16px;
+    transition: font-size 0.3s ease; /* Smooth transition effect */
+}
+
 header li{
     display:inline;
 }
@@ -121,6 +126,11 @@ img#profile-pic{
 
 #hero li img{
     width:37px;
+}
+
+#hero li img {
+   width: 50px;
+    transition: width 0.3s ease; 
 }
 
 #skillset .skills{
