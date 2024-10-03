@@ -61,6 +61,30 @@ function handleSocialMediaIcons() {
 
 handleSocialMediaIcons();
 
+function showSidebar() {
+    
+    let sidebarIcon = document.querySelector('.icon-side-bar');
+    let sidebar = document.querySelector('.sidebar');
+    sidebarIcon.addEventListener('click', function() {
+        sidebar.style.display ='flex';
+    })
+
+}
+
+function hideSidebar() {
+    let cancelButtonIcon = document.querySelector('.icon-cancel-button');
+    let sidebar = document.querySelector('.sidebar');
+    
+    
+    cancelButtonIcon.addEventListener('click', function() {
+        sidebar.style.display = 'none';
+    })
+
+}
+showSidebar();
+hideSidebar();
+
+
 
 
 
