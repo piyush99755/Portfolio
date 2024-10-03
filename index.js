@@ -106,6 +106,13 @@ function handleProjectContainer() {
 
 handleProjectContainer();
 
+function footerHandler() {
+    let currentYear = new Date().getFullYear();
+    document.querySelector('footer').textContent = `© ${currentYear} All rights reserved` ;
+}
+
+footerHandler();
+
 
 
 
