@@ -551,9 +551,16 @@ footer .container{
        
     }
 
-    li.nav-item-hide-mobile{
-        display:none;
+    li.nav-item{
+        display:inline;
     }
+    li.icon-cancel-button{
+        display:inline;
+    }
+
+     li.nav-item-hide-mobile{
+        display:none;
+    } 
     
     .button{
         padding:4px 2px;
@@ -714,6 +721,7 @@ footer .container{
         width:200px;
         border-radius:240px;
     }
+   
     #hero{
         padding-top:28px;
         padding-bottom:10px;
@@ -870,6 +878,9 @@ footer .container{
         text-align:center;
         padding:20px 0;
     }
+    .nav-item{
+        display:inline;
+    }
     
     
     .nav-item .button {
@@ -877,12 +888,12 @@ footer .container{
         transition: font-size 0.3s ease; /* Smooth transition effect */
     }
     
-    /* header li{
+   header li{
         display:flex;
         justify-content:space-evenly;
         align-items: center;
 
-    } */
+    } 
     
     header a{
         color:white;
