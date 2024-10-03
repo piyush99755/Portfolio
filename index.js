@@ -90,16 +90,15 @@ function handleProjectContainer() {
     
     for(let i = 0; i < numOfProjectContainer; i++){
         projectContainer[i].addEventListener('mouseover', function() {
-            let containerWidth = parseFloat(getComputedStyle(projectContainer[i]).width);
-            let mouseOverWidth = containerWidth * 1.25;
-            projectContainer[i].style.width= mouseOverWidth + 'px';
+             projectContainer[i].style.transform = 'scale(1.07)'; // Increase the size without affecting layout
+             projectContainer[i].style.transition = 'transform 0.3s ease';
+            
             
         });
 
         //Reset the width when the mouse leaves
         projectContainer[i].addEventListener('mouseout', function() {
-        let originalWidth = parseFloat(getComputedStyle(projectContainer[i]).width) / 1.25;
-        projectContainer[i].style.width = originalWidth + 'px';
+             projectContainer[i].style.transform = 'scale(1)';
     });
     }
     

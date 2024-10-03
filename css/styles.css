@@ -916,7 +916,7 @@ footer .container{
     .project-container{
         max-width:100%;
         margin-bottom:60px;
-        transition: width 0.3s ease;
+        transition: width 0.5s ease;
     }
     
     .project-container img{
