@@ -219,6 +219,16 @@ img#profile-pic{
     
    
 }
+
+.project-container img{
+    width:90%;
+    height:220px;
+    margin:1%;
+    margin-top:40px;
+    cursor:pointer;
+    
+   
+}
 .project-container a{
     text-align:center;
     text-decoration:none;
