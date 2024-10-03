@@ -50,6 +50,7 @@ header{
 
 .sidebar li{
     padding-top:40px;
+    display:none;
     
 
 }
@@ -208,6 +209,8 @@ img#profile-pic{
     background-color:#28293E;
     border:0.5px solid black;
     border-radius:20px;
+    transition: width 0.3s ease; 
+   
 }
 
 .project-container img{
@@ -421,6 +424,7 @@ footer .container{
         height:auto;
         border:1px solid black;
          border-radius:30px; 
+         transition: width 0.3s ease;
        
     }
     
@@ -631,6 +635,7 @@ footer .container{
         height:auto;
         border:1px solid black;
         border-radius:30px;
+        transition: width 0.3s ease;
         
        
     }
@@ -774,6 +779,7 @@ footer .container{
         align-content:center;
         max-width:100%;
         margin-bottom:60px;
+        transition: width 0.3s ease;
     }
     
     .project-container img{
@@ -910,6 +916,7 @@ footer .container{
     .project-container{
         max-width:100%;
         margin-bottom:60px;
+        transition: width 0.3s ease;
     }
     
     .project-container img{
