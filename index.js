@@ -78,7 +78,16 @@ function hideSidebar() {
     
     cancelButtonIcon.addEventListener('click', function() {
         sidebar.style.display = 'none';
-    })
+    });
+
+    let sideBarButton = document.querySelectorAll('.nav-item');
+    let numOfSideBarButtons = sideBarButton.length;
+
+    for(let i = 0; i < numOfSideBarButtons; i++){
+        sideBarButton[i].addEventListener('click', function(){
+             sidebar.style.display = 'none';
+        });
+    }
 
 }
 showSidebar();
