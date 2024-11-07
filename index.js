@@ -98,7 +98,7 @@ function handleProjectContainer() {
     let numOfProjectContainer = projectContainer.length;
     
     for(let i = 0; i < numOfProjectContainer; i++){
-        projectContainer[i].addEventListener('mouseover', function() {
+        projectContainer[i].addEventListener('click', function() {
              projectContainer[i].style.transform = 'scale(1.07)'; // Increase the size without affecting layout
              projectContainer[i].style.transition = 'transform 0.3s ease';
             
