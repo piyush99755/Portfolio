@@ -199,11 +199,9 @@ img#profile-pic{
 }
 
 .project-container{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    width:49%;
+    display:inline-block;
+    width:60%;
+    height:auto;
     margin-bottom:80px;
     margin-left: 5px;
     background-color:#28293E;
@@ -215,7 +213,7 @@ img#profile-pic{
 
 .project-container img{
     width:90%;
-    height:220px;
+    height:auto;
     margin:1%;
     margin-top:40px;
     cursor:pointer;
@@ -285,6 +283,15 @@ img#profile-pic{
 #contact{
     background-color: var(--light-grey);
 }
+#labelMessage {
+    padding-top:50px;
+    padding-bottom:100px;
+    
+    
+    
+    
+}
+
 
 #contact a{
     display:block;
@@ -687,16 +694,10 @@ footer .container{
         background-color: var(--light-grey);
     }
     
-    #contact a{
-        display:block;
-        text-decoration: none;
-        color:black;
-        font-size:18px;
-    }
-    
-    #contact a img{
-        vertical-align:middle;
-        margin-right:12px;
+    label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
     }
     
     footer{
